@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marisaariesti.marisaariesti_1202150263_modul3.DetailActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imagedetail"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/aqua"/>
+
+    <TextView
+        android:id="@+id/merekdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/merekpenjelasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/merekdetail"
+        android:text="text"/>
+
+            <ImageView
+                android:id="@+id/imageView_batteray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/drawable_list" />
+
+            <Button
+                android:id="@+id/btnmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                android:text="-"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/litter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1L"
+                android:textSize="30dp"
+                android:layout_marginTop="470dp"
+                android:layout_marginLeft="190dp"/>
+
+            <Button
+                android:id="@+id/btnplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="250dp"
+                android:text="+"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
